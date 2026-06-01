@@ -1,4 +1,4 @@
-# multi-site-enterprise-network
+# Multi-Site Enterprise Network Lab
 ## Overview
 
 This project simulates a multi-site enterprise network using Cisco Packet Tracer.
