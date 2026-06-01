@@ -58,13 +58,28 @@ This allows automatic route learning and end-to-end connectivity between all VLA
 
 Verified successful OSPF adjacency between routers.
 
+Router 1 OSPF neighbor:
+
+![OSPF Neighbors](images/R1-ospf-neighbor.png)
+
+Router 2 OSPF neighbor:
+
+![OSPF Neighbors](images/R2-ospf-neighbor.png)
+
 ### Dynamic Route Learning
 
 Verified OSPF-learned routes on both routers.
 
+![OSPF Routes](images/R1-ospf-route.png)
+
+![OSPF Routes](images/R2-ospf-route.png)
+
+
 ### End-to-End Connectivity
 
 Successful ping tests between devices located in different sites and VLANs.
+
+![Ping Test](images/ping_FIN1-SA1)
 
 ## Key Learnings
 
