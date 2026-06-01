@@ -74,12 +74,22 @@ Verified OSPF-learned routes on both routers.
 
 ![OSPF Routes](images/R2-ospf-route.png)
 
+OSPF successfully exchanged routing information between the Main Office and Branch Office routers.
+
+The routing tables show remote networks learned dynamically through OSPF, eliminating the need for static routes.
+
+Remote VLAN networks from each site were automatically discovered and installed in the routing table, validating proper OSPF operation across the WAN link.
+
 
 ### End-to-End Connectivity
 
 Successful ping tests between devices located in different sites and VLANs.
 
-![Ping Test](images/ping_FIN1-SA1)
+![Ping Test](images/ping_FIN1-SA1.png)
+
+Successful communication was verified between the Main Office Finance VLAN and the Branch Office Sales VLAN.
+
+Traceroute confirmed that traffic crossed the WAN link and reached the remote destination through OSPF-learned routes.
 
 ## Key Learnings
 
